@@ -10,15 +10,15 @@ In this module we used Python and Flask to assist W. Avy in evaluating the prosp
 
 #### Temperature
 
-  junquery = session.query(Measurement).filter(extract('month', Measurement.date) == 6).all()
+    junquery = session.query(Measurement).filter(extract('month', Measurement.date) == 6).all()
 
-  decquery = session.query(Measurement).filter(extract('month', Measurement.date) == 12).all()
+    decquery = session.query(Measurement).filter(extract('month', Measurement.date) == 12).all()
   
 #### Precipitation  
   
-  aprquery = session.query(Measurement).filter(extract('month', Measurement.date) == 4).all()
+    aprquery = session.query(Measurement).filter(extract('month', Measurement.date) == 4).all()
   
-  octquery = session.query(Measurement).filter(extract('month', Measurement.date) == 10).all()
+    octquery = session.query(Measurement).filter(extract('month', Measurement.date) == 10).all()
   
 ### Figures
 
